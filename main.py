@@ -1,11 +1,7 @@
-# Data mining and visualisation
-# CA2 - Data Clustering
-# Benjamin Cowley - 201930279
-
 import numpy as np
 import matplotlib.pyplot as plt
 
-np.random.seed(0) # Random seed for result varifaction.
+np.random.seed(0) # Random seed for result verifaction.
 
 def load_data(fname, classLabel):
     features = []
